@@ -76,68 +76,45 @@
         </header>
 
         <!-- complain section -->
-        <section id="instructor" class="inner-section">
+        <section id="course" class="inner-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-12">
-                        <div class="img-wrapper">
-                            <img src="images/instructor.jpg" alt="instructor name" />
-                            <h2 class="instructor-name">John Doe</h2>
-                        </div>
-                        <ul class="social">
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
+                    <div class="col-12">
+                        <h3 class="title"></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
                             </li>
-                             <li>
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
+                            <li class="nav-item">
+                                <a class="nav-link" id="instructor-tab" data-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false">Instructor</a>
                             </li>
-                             <li>
-                                <a href="#">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
+                            <li class="nav-item">
+                                <a class="nav-link" id="price-tab" data-toggle="tab" href="#price" role="tab" aria-controls="price" aria-selected="false">Price</a>
                             </li>
-                             <li>
-                                <a href="#">
-                                    <i class="fa fa-youtube"></i>
-                                </a>
+                            <li class="nav-item">
+                                <a class="nav-link" id="content-tab" data-toggle="tab" href="#content" role="tab" aria-controls="content" aria-selected="false">Content</a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="col-md-9 col-12 content">
-                        <h3>Who is John Doe?</h3>
-                        <p>
-                            <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                        <h3>Courses</h3>
-                        <div class="courses row">
-                            <div class="single-course col-md-3 col-sm-6 col-12">
-                                <div class="img-wrapper">
-                                    <a href="#"><img src="images/course-1.jpg" alt="couse name" /></a>
-                                </div>
-                                <h4><a href="#">Course Name</a></h4>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                                <h3>Where can I get some?</h3>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                                    injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
+                                    Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                                    generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
+                                    Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate
+                                    Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour,
+                                    or non-characteristic words etc.
+                                </p>
                             </div>
-                            <div class="single-course col-md-3 col-sm-6 col-12">
-                                <div class="img-wrapper">
-                                    <a href="#"><img src="images/course-1.jpg" alt="couse name" /></a>
-                                </div>
-                                <h4><a href="#">Course Name</a></h4>
-                            </div>
-                            <div class="single-course col-md-3 col-sm-6 col-12">
-                                <div class="img-wrapper">
-                                    <a href="#"><img src="images/course-1.jpg" alt="couse name" /></a>
-                                </div>
-                                <h4><a href="#">Course Name</a></h4>
-                            </div>
-                            <div class="single-course col-md-3 col-sm-6 col-12">
-                                <div class="img-wrapper">
-                                    <a href="#"><img src="images/course-1.jpg" alt="couse name" /></a>
-                                </div>
-                                <h4><a href="#">Course Name</a></h4>
-                            </div>
+                            <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">...</div>
+                            <div class="tab-pane fade" id="price" role="tabpanel" aria-labelledby="price-tab">...</div>
+                            <div class="tab-pane fade" id="content" role="tabpanel" aria-labelledby="content-tab">...</div>
                         </div>
                     </div>
                 </div>
