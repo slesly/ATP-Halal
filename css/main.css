@@ -1,0 +1,35 @@
+body {
+    background-color:  #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.btn {
+    padding: 8px 30px;
+    border-radius: 3px;
+}
+.btn-primary {
+    background-color: #fd6a02;
+    border-color: #fd6a02;
+}
+
+.btn-primary:hover {
+    background-color: #f16400;
+    border-color: #da7731;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #f16400;
+    border-color: #da7731;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(241, 100, 0, .5);
+}
+.form-control:focus {
+    border-color: #ffb682;
+    box-shadow: 0 0 0 0.2rem rgba(253, 106, 2, .25);
+}
+
+.form-control {
+    min-height: 45px;
+    border-radius: 0;
+}
